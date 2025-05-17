@@ -21,7 +21,6 @@ const error = document.getElementById("uv-error");
  */
 const errorCode = document.getElementById("uv-error-code");
 
-// Attach form submit event listener
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
